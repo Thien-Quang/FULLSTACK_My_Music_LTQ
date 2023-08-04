@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+glow-text {
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+}
+
+gradient-text {
+    background: linear-gradient(to right, #ff0000, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
